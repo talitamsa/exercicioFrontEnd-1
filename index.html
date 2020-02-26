@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário de medicamentos</title>
+</head>
+
+<body>
+    
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./img/logo-rd.png" width="35" height="35" class="d-inline-block align-top" alt="">
+      Formulário de medicamentos
+    </a>
+  </nav>
+
+  <main class="container">
+
+    <form id="formulario" class="row mt-4">
+
+
+        <div class="col-md-4">
+            <header class="bg-secondary text-light p-2 rounded">
+                Preencha as informações a seguir:
+            </header>
+            <div class="p-2">
+                <div class="form-group">
+                    <label for="crmDoMedico">CRM do Médico</label>
+                    <input class="form-control" type="text" id="crmDoMedico" name="crmDoMedico"
+                        placeholder="Digite o CRM do médico">
+                </div>
+
+                <div class="form-group">
+                    <label for="nomeMedico">Nome do Médico</label>
+                    <input class="form-control" type="text" id="nomeMedico" name="nomeMedico"
+                        placeholder="Digite o nome do médico">
+                </div>
+
+                <div class="form-group">
+                    <label for="dataReceita">Data da Receita</label>
+                    <input class="form-control" type="date" id="dataReceita" name="dataReceita"
+                        placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="qntDeCaixas">Quantidade de Caixas</label>
+                    <input class="form-control" type="text" id="qntDeCaixas" name="qntDeCaixas"
+                        placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="nomeDoPaciente">Nome do Paciente</label>
+                    <input class="form-control" type="text" id="nomeDoPaciente" name="nomeDoPaciente"
+                        placeholder="Digite o nome do paciente">
+                </div>
+
+                <div class="form-group">
+                    <label for="cpfDoPaciente">CPF do Paciente</label>
+                    <input class="form-control" type="text" id="cpfDoPaciente"
+                        name="cpfDoPaciente" placeholder="Digite o CPF do paciente">
+                </div>
+
+                <div class="form-group">
+                    <label for="dataDeNascimento">Data de nascimento</label>
+                    <input class="form-control" type="date" id="dataDeNascimento"
+                        name="dataDeNascimento" placeholder="">
+                </div>
+
+                <div class="col-mt-6">
+                    <label for="sexoPaciente">Sexo do Paciente</label>
+                    <select class="form-control" type="text" id="sexoPaciente" name="sexoPaciente">
+                        <option selected>Sexo do Paciente</option>
+                        <option value="FEM">Feminino</option>
+                        <option value="MASC">Masculino</option>
+                        <option value="NDI">Não desejo informar</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div class="form-group row">
+                    <div class="col-6">
+                        <label for="tipoDeEnvio">Tipo de Envio</label>
+
+                        <label for="anexarArquivo">Anexar arquivo</label>
+                        <input type="radio" name="tipoDeEnvio" id="anexarArquivo">
+                    
+
+                    <div><label for="whatsApp">WhatsApp</label>
+                        <input type="radio" name="tipoDeEnvio" id="whatsApp"></div>
+                    
+
+                    <label for="email">E-mail</label>
+                        <input type="radio" name="tipoDeEnvio" id="email">
+        
+
+                </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+  </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
+</body>
+
+</html>
